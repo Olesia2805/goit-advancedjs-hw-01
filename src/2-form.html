@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <section class="feedback-section">
+      <div class="menu-back">
+        <ul class="menu-list-back">
+          <li class="menu-item-back">
+            <a class="menu-link-back" href="./index.html">Go back</a>
+          </li>
+        </ul>
+      </div>
+      <form class="feedback-form" autocomplete="off">
+        <label class="feedback-form-text">
+          Email
+          <input
+            class="feedback-form-input"
+            type="email"
+            name="email"
+            autofocus
+          />
+        </label>
+        <label class="feedback-form-text">
+          Message
+          <textarea
+            class="feedback-form-textarea"
+            name="message"
+            rows="8"
+          ></textarea>
+        </label>
+        <button class="feedback-form-btn" type="submit">Submit</button>
+      </form>
+    </section>
+    <script src="./js/2-form.js" type="module" defer></script>
+  </body>
+</html>

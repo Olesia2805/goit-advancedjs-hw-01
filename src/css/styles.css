@@ -22,14 +22,24 @@ img {
   width: 100%;
 }
 
+textarea {
+  resize: none;
+  width: 100%;
+}
+
+button {
+  cursor: pointer;
+  padding: 0;
+  border: none;
+}
+
 .menu {
-  border: solid none;
   margin: 20px auto;
   text-align: center;
   width: 500px;
   box-shadow: 10px 10px 10px 0px #cccccc;
   background-color: #fff;
-  border-radius: 16px;
+  border-radius: 8px;
 }
 
 .menu-header {
@@ -68,4 +78,59 @@ img {
 .gallery-image {
   width: 360px;
   height: 200px;
+}
+
+.feedback-section {
+}
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+  margin: 24px 24px 16px 24px;
+  text-align: center;
+  box-shadow: 10px 10px 10px 0px #cccccc;
+  background-color: #fff;
+  border-radius: 8px;
+  gap: 8px;
+}
+
+.feedback-form-text {
+}
+.feedback-form-input {
+}
+.feedback-form-textarea {
+  height: 80px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+}
+.feedback-form-btn {
+  width: 95px;
+  height: 40px;
+  display: flex;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.64px;
+  border-radius: 8px;
+  background: #4e75ff;
+}
+.feedback-form-btn:hover,
+.feedback-form-btn:focus {
+  background: #6c8cff;
+}
+.menu-back {
+}
+.menu-list-back {
+}
+.menu-item-back {
+}
+.menu-link-back {
 }
