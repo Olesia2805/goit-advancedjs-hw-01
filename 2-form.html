@@ -6,7 +6,7 @@
     <title>Form</title>
     
     <script type="module" crossorigin src="/goit-advancedjs-hw-01/assets/modulepreload-polyfill-3cfb730f.js"></script>
-    <link rel="stylesheet" href="/goit-advancedjs-hw-01/assets/styles-7ebeca00.css">
+    <link rel="stylesheet" href="/goit-advancedjs-hw-01/assets/styles-2e21e351.css">
   </head>
   <body>
     <section class="feedback-section">
@@ -17,26 +17,28 @@
           </li>
         </ul>
       </div>
-      <form class="feedback-form" autocomplete="off">
-        <label class="feedback-form-text">
-          Email
-          <input
-            class="feedback-form-input"
-            type="email"
-            name="email"
-            autofocus
-          />
-        </label>
-        <label class="feedback-form-text">
-          Message
-          <textarea
-            class="feedback-form-textarea"
-            name="message"
-            rows="8"
-          ></textarea>
-        </label>
-        <button class="feedback-form-btn" type="submit">Submit</button>
-      </form>
+      <div class="wrapper">
+        <form class="feedback-form" autocomplete="off">
+          <label class="feedback-form-text">
+            Email
+            <input
+              class="feedback-form-input"
+              type="email"
+              name="email"
+              autofocus
+            />
+          </label>
+          <label class="feedback-form-text">
+            Message
+            <textarea
+              class="feedback-form-textarea"
+              name="message"
+              rows="8"
+            ></textarea>
+          </label>
+          <button class="feedback-form-btn" type="submit">Submit</button>
+        </form>
+      </div>
     </section>
     
   </body>
